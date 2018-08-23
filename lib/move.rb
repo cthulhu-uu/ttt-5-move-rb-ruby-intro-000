@@ -12,6 +12,6 @@ def input_to_index(number)
 end
 
 
-def move(board, pos, char = "X")
- board[pos] = char
+def move(poo, pos, char = "X")
+ poo[pos] = char
 end
